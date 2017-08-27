@@ -1,0 +1,88 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <title>David Mathias -- Florida Southern College -- Home Page</title>
+  <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+
+<body>
+  <div>
+    <img style='width: 100%' src="images/DentsMidiPano.jpg">
+    <ul id="menu_list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="photos.html">Photos</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <article>
+      <h1 style="color:#be0f34";> Research </h1>
+      My research field is genetic algorithms, an area of Artificial Intelligence in which we create algorithms that "evolve" solutions to computationally expensive problems.  A genetic algorithm is a computational corollary to Darwinian evolution.  A population of candidate solutions to a problem are recombined and mutated, all at random, to create increasingly better solutions over a number of generations.
+      <img class="displayed" src="images/homersapien.jpg" width="400">
+
+      <p> The video below (by Matthew Miller via youtube) provides a visual example of a genetic algorithm.  In this case, the algorithm creates an approximation of the Mona Lisa by randomly placing circles created with random size and color.  The purpose of the video is to demonstrate the power of genetic algorithms not to provide a real-world example of how they are used.  It's worth noting that the video is time-compressed -- the actual computation took approximately a week.
+
+      <br><br>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/f5g8k-n4j_o" frameborder="0" allowfullscreen></iframe>
+
+      <p>The whole thing works due to an objective function, a mechanism for evaluating the fitness of an individual (candidate solution).  As in biological evolution's survival of the fittest, fitter individuals are more likely to survive, allowing them to reproduce and/or mutate, while less fit individuals are more likely to be eaten by a lion.
+      <img class="displayed" src="images/LionZebra.jpg" width="400">
+
+      <p> My recent work has focused on using genetic algorithms to do path planning for autonomous vehicles, namely micro aerial vehicles, popularly known as drones. Not only is this an interesting problem but it also allows my students and I to play with quadcopters which is, frankly, a lot of fun.  Pictured below is a 3DR Iris+ like those we fly.  We have incorporated an Odroid XU4 single-board computer allowing all necessary computation to be done onboard the vehicle, making it autonomous.
+      <img class="displayed" src="images/Iris+.jpg" width="400">
+
+    </article>
+
+    <aside>
+      <br/>
+      <img class="displayed" src="images/AirMox Logo.png" width="300">
+      <br/><br/>
+
+      <h4 style="color:#be0f34";>Upcoming Conferences</h4>
+
+      <center>
+      <p><strong>Congress on Evolutionary Computation 2017</strong><br/>
+      <img style="vertical-align:middle" src="images/comp_int_soc.png" width="150">
+      <span style="">
+        &nbsp <a href="http://www.cec2017.org/#call_papers"><b> Call for Papers</b></a>
+      </span>
+
+      <br/><br/><br/><br/>
+
+      <p><strong>Genetic and Evolutionary Computing Conference</strong><br/>
+      <img style="vertical-align:middle" src="images/GeccoLogo.jpg" width="100">
+      <span style="">
+          &nbsp <a href="http://gecco-2017.sigevo.org/index.html/Papers"><b>Call for Papers</b></a>
+      </span>
+      <br/><br/><br/><br/>
+
+      <p><strong>Florida Artificial Intelligence Conference</strong><br/>
+      <img style="vertical-align:middle" src="images/Flairs30.png" width="100">
+      <span style="">
+        &nbsp <a href="http://www.flairs-30.info"><b>Call for Papers</b></a>
+      </span>
+      </center>
+      <br/><br/><br/><br/><br/>
+
+      <figure>
+        <img src="images/PathfinderScreenshot.png" width="300">
+        <figcaption>Screenshot from our path planning genetic algorithm.  It depicts 43 distinct paths (members of the population) at generation 55.  The run of the algorithm had not yet completed.</figcaption>
+      </figure>
+
+      <br/><br/></br>
+      <iframe width="340" height="191" src="https://www.youtube.com/embed/gMYn46oWO1c" frameborder="0" allowfullscreen></iframe>
+      <center>Video of a run of our GA for path planning.</center>
+    </aside>
+ 
+    <br>
+
+    <footer> Copyright &copy H. David Mathias </footer>
+
+  </div>
+</body>
+

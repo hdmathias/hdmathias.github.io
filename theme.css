@@ -1,0 +1,131 @@
+
+div.container {
+  width: 100%;
+  border: 1px;
+  border-style: solid;
+  border-color: #be0f34;
+}
+
+img.displayed {
+  display: block;
+  margin: auto;
+}
+
+a {
+  color: #be0f34;
+}
+
+a:hover {
+  color: #555555;
+}
+
+article {
+  float: left;
+  margin-left: 10px;
+  max-width: 600px;
+  padding: 1em;
+  overflow: hidden;
+}
+
+section {
+    float: left;
+    margin-left: 10px;
+    max-width: 700px;
+    padding: 1em;
+    overflow: hidden;
+}
+
+aside {
+  margin-top: 15px;
+  margin-left: 680px;
+  padding: 1em;
+}
+
+#facts_list li{
+  margin: 16px 0;
+}
+
+#pubs_list li{
+  margin: 16px 0;
+}
+
+#pub_link a{
+    color: #be0f34;
+    text-decoration: none
+}
+
+ul#menu_list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #be0f34;
+}
+
+#menu_list li{
+  float: left;
+}
+
+#menu_list li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 24px;
+  text-decoration: none;
+}
+
+#menu_list li a:hover{
+  /* background-color: #b0b0b0; */
+  color: black;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+h3{
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+footer {
+  padding: 10px;
+  background-color: be0f34;
+  color: white;
+  clear: left;
+  text-align: center;
+}
+
+
+/* 
+  from A Complete Guide to Flexbox
+  css-tricks.com
+*/
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  /* background: tomato; */
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: blue;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
