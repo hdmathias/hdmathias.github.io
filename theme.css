@@ -3,7 +3,7 @@ div.container {
   width: 100%;
   border: 1px;
   border-style: solid;
-  border-color: #be0f34;
+  border-color: #830019;
 }
 
 img.displayed {
@@ -12,7 +12,7 @@ img.displayed {
 }
 
 a {
-  color: #be0f34;
+  color: #830019;
 }
 
 a:hover {
@@ -50,7 +50,7 @@ aside {
 }
 
 #pub_link a{
-    color: #be0f34;
+    color: #830019;
     text-decoration: none
 }
 
@@ -59,7 +59,7 @@ ul#menu_list{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #be0f34;
+  background-color: #830019;
 }
 
 #menu_list li{
@@ -90,7 +90,7 @@ h3{
 
 footer {
   padding: 10px;
-  background-color: be0f34;
+  background-color: #830019;
   color: white;
   clear: left;
   text-align: center;
