@@ -36,6 +36,7 @@ section {
 }
 
 aside {
+  background-color: darkgray;
   margin-top: 15px;
   margin-left: 680px;
   padding: 1em;
